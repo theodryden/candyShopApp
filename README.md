@@ -34,10 +34,7 @@ HTML/CSS
      - Handle changes in the input fields to update the state for candy name and quantity.
      - Handle form submission to add new candy items to the inventory list.
      - Handle click events on the "Delete" button to remove items.
-
-
-**Project Process**
-
+    
 
 **Project Challenges**
 - Resizing the kenyan flag image to use for the background
