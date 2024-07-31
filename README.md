@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+**Medical Website README**
+The purpose of this application was to practice pair programming by creating a shopping list for a visit to a candy store, all in under 45 minutes . Our team was made of Theo, Annie and Salah. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Tech Stack**
+**Font-End**
+React.JS
+JavaScript
+HTML/CSS
 
-## Available Scripts
+1.⁠ ⁠User Interface
+   - Input Fields: 
+     - A text input for entering the name of a candy.
+     - A number input for entering the quantity of the candy.
+   - Add Button: A button to add the entered candy item to the inventory list.
+   - Candy List: A list displaying all added candy items with their quantities.
+   - Delete Button: A button next to each candy item for removing it from the list.
 
-In the project directory, you can run:
+2.⁠ ⁠Functionality
+   - Adding Candies: 
+     - Users should be able to type a candy name and quantity in the input fields.
+     - Upon clicking the "Add" button or pressing the Enter key, the candy item should be added to the inventory list.
+     - After adding a candy item, the input fields should be cleared, ready for new entries.
+   - Displaying Candies:
+     - Display each candy item as a list item with its name and quantity.
+     - Each item should display the candy name, quantity, and a "Delete" button.
+   - Deleting Candies:
+     - Clicking the "Delete" button should remove the corresponding candy item from the list.
+   - Empty List Message:
+     - If there are no candies in the list, display a message like "Your inventory is empty!" to indicate the list is empty.
 
-### `npm start`
+3.⁠ ⁠Technical Requirements
+   - State Management: Use React's useState hook to manage the list of candy items, the current values of the input fields, and their quantities.
+   - Event Handling: 
+     - Handle changes in the input fields to update the state for candy name and quantity.
+     - Handle form submission to add new candy items to the inventory list.
+     - Handle click events on the "Delete" button to remove items.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Project Process**
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Project Challenges**
+- Resizing the kenyan flag image to use for the background
+- Using ES6 syntax to update the UI when no more items were in the list
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Future Project Improvements / Lessons**
+- Improve the readability of items after adding the Kenyan Flag
+- Make a moodboard / pintrest board for the colours,fonts, emoji's to use to deploy
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Overall Experience**
+- Enjoyable working as a team on code. We covered each others blind spots and made for a more creative end product. 
 
-### `npm run eject`
+  
+**Social Channels**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**LinkedIN**
+https://www.linkedin.com/in/theo-dryden-bb6526114/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Github**
+https://github.com/theodryden
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Coding Newsletter**
+https://theodrydentech.substack.com/
