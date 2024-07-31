@@ -1,4 +1,5 @@
-**Candy Shop App README**
+
+**ReadME**:
 The purpose of this application was to practice pair programming by creating a shopping list for a visit to a candy store, all in under 45 minutes . Our team was made of Theo, Annie and Salah. 
 
 **Tech Stack**
